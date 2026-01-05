@@ -33,14 +33,14 @@
     .navbar {
         background: rgba(10, 10, 20, 0.98) !important;
         backdrop-filter: blur(20px) !important;
-        padding: 1.2rem 1.5rem !important;
+        padding: 1rem 1.25rem !important;
         display: flex !important;
         align-items: center !important;
         justify-content: space-between !important;
     }
 
     .nav-logo-img {
-        height: 65px !important;
+        height: 50px !important;
     }
 
     .hamburger {
