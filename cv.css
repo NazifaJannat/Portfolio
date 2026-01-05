@@ -1,16 +1,19 @@
 /* === LEFT SIDEBAR LAYOUT === */
 :root {
-    --bg-sidebar: #1F2937;
-    /* Dark Sidebar */
-    --text-sidebar: #F3F4F6;
-    --text-sidebar-muted: #9CA3AF;
-    --accent-gold: #D4AF37;
-    /* Elegant Gold */
+    --bg-sidebar: #0f172a;
+    /* Deep Blue */
+    --text-sidebar: #ffffff;
+    --text-sidebar-muted: #cbd5e1;
+    /* Light Blue/Grey */
+    --accent-gold: #38bdf8;
+    /* Light Sky Blue */
+    /* Fresh Blue Accent */
     --bg-main: #FFFFFF;
     --text-dark: #111827;
     --text-body: #374151;
-    --font-serif: 'Playfair Display', serif;
-    --font-sans: 'Inter', sans-serif;
+    --font-serif: 'Playfair Display', 'Times New Roman', serif;
+    --font-sans: 'Playfair Display', 'Times New Roman', serif;
+    /* Switch to Serif as requested */
 }
 
 body {
@@ -69,6 +72,21 @@ body {
     object-fit: cover;
 }
 
+.sidebar-profile-text {
+    text-align: left;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: var(--text-sidebar);
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 10px;
+}
+
+.sidebar-profile-text strong {
+    color: var(--accent-gold);
+    font-weight: 600;
+}
+
 .contact-section {
     display: flex;
     flex-direction: column;
@@ -93,6 +111,15 @@ body {
 .contact-item a {
     color: var(--text-sidebar);
     text-decoration: none;
+}
+
+.highlight-link {
+    color: var(--accent-gold) !important;
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    font-size: 1.05rem;
+    /* Slightly larger */
 }
 
 .sidebar-title {
@@ -244,8 +271,8 @@ body {
 
 .exp-date {
     font-weight: 600;
-    color: #B45309;
-    /* Bronze */
+    color: #0369a1;
+    /* Medium Blue */
     font-size: 0.9rem;
 }
 
@@ -267,8 +294,8 @@ body {
 }
 
 .highlight-bar {
-    background: #FFFBEB;
-    border-left: 3px solid #F59E0B;
+    background: #f0f9ff;
+    border-left: 3px solid #38bdf8;
     padding: 8px 12px;
     font-size: 0.9rem;
     margin-top: 5px;
