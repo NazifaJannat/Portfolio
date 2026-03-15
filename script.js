@@ -1,6 +1,13 @@
 // Data for Articles
 const articlesData = [
     {
+        title: 'New political platform NPA launched with 101-member central council',
+        source: 'Prothom Alo (En)',
+        date: 'Jan 16, 2026',
+        link: 'https://en.prothomalo.com/bangladesh/politics/ajllubbsva',
+        image: 'assets/prothomalo-english_2026-01-16_rpxt0r0v_NPA-1.avif'
+    },
+    {
         title: 'Massive crackdown on students geared up July movement',
         source: 'BSS News',
         date: 'June 29, 2025',
