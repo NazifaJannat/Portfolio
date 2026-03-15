@@ -1197,6 +1197,17 @@ body {
 }
 
 /* 2. Hero Interests Line */
+.oslo-highlight {
+    background: rgba(var(--accent-rgb), 0.15);
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 1rem 0;
+    font-size: 0.9rem;
+    border: 1px solid rgba(var(--accent-rgb), 0.3);
+    color: var(--accent);
+}
+
 .interests-line {
     color: var(--accent-light);
     font-size: 1rem;
