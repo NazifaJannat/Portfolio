@@ -1201,12 +1201,50 @@ body {
     background: rgba(var(--accent-rgb), 0.15);
     padding: 0.5rem 1rem;
     border-radius: 50px;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
     margin: 1rem 0;
     font-size: 0.9rem;
     border: 1px solid rgba(var(--accent-rgb), 0.3);
     color: var(--accent);
 }
+
+.oslo-thumb {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--accent);
+}
+
+.oslo-gallery {
+    margin-top: 1.5rem;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+}
+
+.gallery-img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+.gallery-img:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    border-color: var(--accent);
+}
+
+.mt-3 { margin-top: 1rem; }
 
 .interests-line {
     color: var(--accent-light);
